@@ -14,38 +14,41 @@ export default function Navbar() {
     const closeMobileMenu = () => setClick(false);
 
     return (
-        <IconContext.Provider value={{ color: '#fff'}}>
-        <div className="navbar">
-            <div className="navbar-container container">
-                <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                    {/* <MdFingerprint className='navbar-icon' /> */}
+
+
+        <IconContext.Provider value={{ color: '#fff' }}>
+
+            <div className="navbar">
+                <div className="navbar-container container">
+                    <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
+                        {/* <MdFingerprint className='navbar-icon' /> */}
                             Advance Accountax
                         </Link>
-                <div className="menu-icon" onClick={handleClick}>
-                    {click ? <FaTimes /> : <FaBars />}
-                </div>
-                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className="nav-item">
-                        <Link to='/' className="nav-links" >
-                            Home
+                    <div className="menu-icon" onClick={handleClick}>
+                        {click ? <FaTimes /> : <FaBars />}
+                    </div>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className="nav-item">
+                            <Link to='/' className="nav-links" >
+                                Home
                              </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/services' className="nav-links">
-                            Services
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/services' className="nav-links">
+                                Services
                              </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/about' className="nav-links" >
-                            About
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/about' className="nav-links" >
+                                About
                              </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to='/about' className="nav-links" >
-                            Contact
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/about' className="nav-links" >
+                                Contact
                              </Link>
-                    </li>
-                    {/* <li className="nav-btn">
+                        </li>
+                        {/* <li className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link" >
                                 <Button buttonStyle='btn--outline'>SIGN UP</Button>
@@ -57,9 +60,11 @@ export default function Navbar() {
                                 </Link>
                             )}
                     </li> */}
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
         </IconContext.Provider>
+
+
     );
 }
