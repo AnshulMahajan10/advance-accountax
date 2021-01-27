@@ -3,6 +3,7 @@
 
 .about-container {
   /* background: url('../../../images/office1.jpg') center center/cover no-repeat; */
+  /* background-color: #fff; */
   height: 70vh;
   width: 100%;
   display: flex;

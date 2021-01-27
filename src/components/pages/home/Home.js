@@ -12,7 +12,7 @@ function Home() {
 
             <div className="home-container">
                 <div className="row">
-                    <h1>Welcome to Advance Accountax</h1>
+                    <h1>Welcome to <span>Advance Accountax</span></h1>
                 </div>
 
 

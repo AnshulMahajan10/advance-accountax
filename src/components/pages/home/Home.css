@@ -8,7 +8,7 @@
 
 
 .home-container {
-    background: url('../../../images/office1.jpg') center center/cover no-repeat;
+    background: url('../../../images/joe-woods-4Z.jpg') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;
@@ -22,15 +22,21 @@
   }
 
   .home-container h1{
-      color: #fff;
+      color: #222222;
       font-size: 3.5rem;
   }
+
+  .home-container h1 span{
+    color: #106eea;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+}
 
   @media screen and (max-width: 960px) 
   {
 
   .home-container {
-    background: url('../../../images/office1.jpg') center center/cover no-repeat;
+    background: url('../../../images/joe-woods-4Z.jpg') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;

@@ -10,6 +10,7 @@ import Home from './pages/home/Home';
 import Services from './pages/services/Services';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
+import { MdArrowUpward } from 'react-icons/md';
 
 export default function Navbar() {
     const [click, setClick] = useState(false);
@@ -25,7 +26,7 @@ export default function Navbar() {
     return (
 
         <div>
-            <IconContext.Provider value={{ color: '#fff' }}>
+            {/* <IconContext.Provider value={{ color: '#fff' }}> */}
 
                 <div className="navbar">
                     <div className="navbar-container container">
@@ -80,7 +81,8 @@ export default function Navbar() {
                         </ul>
                     </div>
                 </div>
-            </IconContext.Provider>
+
+            {/* </IconContext.Provider> */}
 
             <Home></Home>
             <Element id="services">
@@ -93,7 +95,7 @@ export default function Navbar() {
                 <Contact ></Contact>
             </Element>
 
-          <a onClick={scrollToTop}>To the top!</a>
+          <a onClick={scrollToTop} class="back-to-top"><MdArrowUpward className='navbar-icon' />To the top!</a>
         </div>
     );
 }
