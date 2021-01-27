@@ -1,8 +1,12 @@
 import React from 'react';
 import './Home.css';
+import Services from '../services/Services';
+import About from '../about/About';
+import Contact from '../contact/Contact';
 
 function Home() {
     return (
+
         <div className="body-home">
 
 
@@ -14,6 +18,8 @@ function Home() {
 
             </div>
         </div>
+
+
     );
 }
 

@@ -2,7 +2,7 @@
 
 
 .service-container {
-  background: url('../../../images/office1.jpg') center center/cover no-repeat;
+  /* background: url('../../../images/office1.jpg') center center/cover no-repeat; */
   height: 70vh;
   width: 100%;
   display: flex;
@@ -27,6 +27,6 @@
   font-size: 1.5rem;
 }
 .service-container  li{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #fff;
 }

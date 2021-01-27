@@ -1,0 +1,45 @@
+
+
+
+.contact-container {
+  /* background: url('../../../images/office1.jpg') center center/cover no-repeat; */
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+   /* padding-left: 80px; */
+  padding-top: 80px; 
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+
+
+.contact-container  h3  {
+  color: #106eea;
+  font-size: 1.5rem;
+}
+.contact-container    .cardTitle {
+  display: flex;
+  /* flex-direction: row; */
+  color: #106eea;
+  font-size: 1.3rem;
+  /* align-content: center;
+  align-items: center; */
+}
+
+.contact-container .row .card {
+  /* background-color: burlywood; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: 1.5rem;
+  width: 250px;
+}
+
+.contact-container .row .card a {
+  color: black;
+  text-decoration: underline;
+}
