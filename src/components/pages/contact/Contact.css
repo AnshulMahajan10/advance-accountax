@@ -7,7 +7,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
    /* padding-left: 80px; */
   padding-top: 80px; 
   align-items: center;
@@ -21,8 +21,10 @@
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #e7f1fd;
-  color: #106eea;
+  /* background: #e7f1fd;
+  color: #106eea; */
+  background: #106eea;
+  color: #e7f1fd;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -55,11 +57,16 @@
 }
 
 .contact-container .cardTitle .navbar-icon {
-  /* border: 4px dotted #106eea;
+
+  color: white;
+  background: #106eea;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  height: 30px;
-  width: 30px; */
-  /* box-shadow: 0 0 0 4px; */
+  text-align: center;
+  line-height: 55px;
+  vertical-align: middle;
+  /* padding: 30px; */
 }
 
 /* .contact-container    .cardTitle .row {
@@ -69,8 +76,8 @@
 
 
 .contact-container .row .card {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   margin: 1.5rem;
   width: 250px;
 }
@@ -78,4 +85,14 @@
 .contact-container .row .card a {
   color: black;
   /* text-decoration: underline; */
+}
+
+@media screen and (max-width: 960px) {
+  .contact-container .row .card {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 1.5rem;
+    margin-left: 60px;
+    width: 250px;
+  }
 }

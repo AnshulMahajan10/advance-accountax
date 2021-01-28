@@ -11,6 +11,7 @@ import Services from './pages/services/Services';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import { MdArrowUpward } from 'react-icons/md';
+import { FaArrowCircleUp } from "react-icons/fa";
 
 export default function Navbar() {
     const [click, setClick] = useState(false);
@@ -29,12 +30,10 @@ export default function Navbar() {
         let maxScroll = document.body.scrollHeight - window.innerHeight;
         if (currentScrollPos > 0 && currentScrollPos < maxScroll) {
             setOpacity(1);
-            console.log('hello');
-          } else {
+        } else {
             setOpacity(0);
-            console.log('helloss');
-          }
-       
+        }
+
     };
 
     window.addEventListener('scroll', showUpIcon);
@@ -47,7 +46,7 @@ export default function Navbar() {
             <div className="navbar">
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                        {/* <MdFingerprint className='navbar-icon' /> */}
+                       
                             Advance Accountax
                         </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -111,7 +110,7 @@ export default function Navbar() {
                 <Contact ></Contact>
             </Element>
 
-            <a onClick={scrollToTop} className="back-to-top" style={{ opacity: `${opacity}`}}><MdArrowUpward className='navbar-icon' />To the top!</a>
+            <a onClick={scrollToTop} className="back-to-top" style={{ opacity: `${opacity}` }}><FaArrowCircleUp className='navbar-icon' /></a>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-.navbar {
+.navbar-container  .navbar {
     background: #fff;
     height: 90px;
     display: flex;
@@ -42,6 +42,7 @@
   
   .navbar-icon {
     margin-right: 0.5rem;
+    font-size: xx-large;
   }
   
   .nav-menu {
@@ -56,10 +57,11 @@
   .nav-item {
     height: 80px;
     border-bottom: 2px solid transparent;
+    font-size: 1.5rem;
   }
   
   .nav-item:hover {
-    border-bottom: 2px solid #106eea;
+    /* border-bottom: 2px solid #106eea; */
   }
   
   .nav-links {

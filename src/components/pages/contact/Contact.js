@@ -17,10 +17,10 @@ export default function Contact() {
                     <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
                             {/* <div class="col"> */}
-                                <div >
-                                    <MdPlace className='navbar-icon' />
+                                <div className='navbar-icon'>
+                                    <MdPlace  />
                                 </div>
-                              
+                                <br></br>
                                 <div >
                                     Our Address
                         </div>
@@ -48,9 +48,10 @@ export default function Contact() {
                 <Card>
                     <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
-                            <div>
-                                <MdEmail className='navbar-icon' />
+                            <div className='navbar-icon' >
+                                <MdEmail />
                             </div>
+                            <br></br>
                             <div>
                                 Email Us
                             </div>
@@ -69,9 +70,10 @@ export default function Contact() {
                 <Card>
                     <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
-                            <div>
-                                <MdPhone className='navbar-icon' />
+                            <div className='navbar-icon'>
+                                <MdPhone  />
                             </div>
+                            <br></br>
                             <div>
                                 Call Us
                             </div>
