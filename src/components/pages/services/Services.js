@@ -6,16 +6,17 @@ export default function Services() {
     return (
         <div className="service-container">
 
-            <h3>We provide following <span>Services</span></h3>
+            <h2>Services</h2>
+            <h3>Check our <span>Services</span></h3>
 
-              <ul>
-                        <li>Accounting</li>
-                        <li>Payroll tax</li>
-                        <li>Tax planning</li>
-                        <li>Life insurance</li>
-                        <li>Retirement planning</li>
-                        <li>Tax efficient investment</li>
-                    </ul>
+            <ul>
+                <li>Accounting</li>
+                <li>Payroll tax</li>
+                <li>Tax planning</li>
+                <li>Life insurance</li>
+                <li>Retirement planning</li>
+                <li>Tax efficient investment</li>
+            </ul>
 
 
             {/* <Card>

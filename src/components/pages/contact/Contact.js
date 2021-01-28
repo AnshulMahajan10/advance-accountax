@@ -9,19 +9,22 @@ export default function Contact() {
     return (
         <div className="contact-container">
 
-          <h3>Contact Us</h3>
+            <h2>Contact</h2>
+
             <div className="row">
 
                 <Card>
-                    <Card.Body>
+                    <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
-                            <div>
-                                <MdPlace className='navbar-icon' />
-                            </div>
-
-                            <div >
-                                Our Address
+                            {/* <div class="col"> */}
+                                <div >
+                                    <MdPlace className='navbar-icon' />
+                                </div>
+                              
+                                <div >
+                                    Our Address
                         </div>
+                            {/* </div> */}
                         </Card.Title>
 
                         <a href="https://www.google.com/maps/place/120+Traders+Blvd+E,+Mississauga,+ON+L4Z+3K7/data=!4m2!3m1!1s0x882b40a1b8a534ad:0x796d25af73db9e00?sa=X&ved=2ahUKEwjzmpziorjuAhWDg-AKHbIHD_MQ8gEwAHoECAgQAQ"
@@ -43,7 +46,7 @@ export default function Contact() {
                 </Card>
 
                 <Card>
-                    <Card.Body>
+                    <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
                             <div>
                                 <MdEmail className='navbar-icon' />
@@ -64,7 +67,7 @@ export default function Contact() {
                 </Card>
 
                 <Card>
-                    <Card.Body>
+                    <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
                             <div>
                                 <MdPhone className='navbar-icon' />
