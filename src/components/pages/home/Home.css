@@ -8,7 +8,7 @@
 
 
 .home-container {
-    background: url('../../../images/joe-woods-4Z.jpg') center center/cover no-repeat;
+    background: url('../../../images/hero-bg.jpg') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;
@@ -23,11 +23,13 @@
 
   .home-container h1{
       color: #222222;
+      /* color: #106eea; */
       font-size: 3.5rem;
   }
 
   .home-container h1 span{
-    color: #106eea;
+    color: #106EEA;
+    /* color: #e7f1fd; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.5rem;
 }
@@ -36,7 +38,7 @@
   {
 
   .home-container {
-    background: url('../../../images/joe-woods-4Z.jpg') center center/cover no-repeat;
+    background: url('../../../images/hero-bg.jpg') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;

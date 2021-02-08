@@ -3,7 +3,7 @@
 
 .contact-container {
   /* background: url('../../../images/office1.jpg') center center/cover no-repeat; */
-  height: 70vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;

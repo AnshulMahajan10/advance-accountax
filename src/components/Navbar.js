@@ -40,14 +40,24 @@ export default function Navbar() {
 
     return (
 
+
+
         <div>
+
+            <div className="heading">
+                <a href="tel:416-824-4822">
+                    Call Us : 416-824-4822
+                </a>
+
+            </div>
+
             {/* <IconContext.Provider value={{ color: '#fff' }}> */}
 
             <div className="navbar">
                 <div className="navbar-container container">
                     <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                       
-                            Advance Accountax
+
+                        Advance Accountax Services
                         </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
