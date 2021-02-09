@@ -28,7 +28,8 @@
   }
 
   .home-container h1 span{
-    color: #106EEA;
+    /* color: #106EEA; */
+    color: #222222;
     /* color: #e7f1fd; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.5rem;

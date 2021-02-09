@@ -4,15 +4,16 @@
 .service-container {
   /* background: url('../../../images/office1.jpg') center center/cover no-repeat; */
   /* background-color: #fff; */
-  height: 70vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
    /* padding-left: 80px; */
-  padding-top: 100px; 
+  padding-top: 6rem; 
   align-items: center;
-  box-shadow: inset 0 0 0 1000px #fff;
+  /* box-shadow: inset 0 0 0 1000px #fff; */
+  box-shadow: inset 0 0 0 1000px #f6f9fe;
   object-fit: contain;
 }
 
@@ -22,8 +23,10 @@
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #e7f1fd;
-  color: #106eea;
+  /* background: #e7f1fd;
+  color: #106eea; */
+  background: #106eea;
+  color: #e7f1fd;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -32,14 +35,16 @@
 .service-container  h3{
   /* color: #1c2237; */
   margin: 15px 0 0 0;
-  font-size: 32px;
-  font-weight: 700;
+  /* font-size: 32px; */
+  font-size: 2.0rem;
+  font-weight: 600;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 .service-container  h3 span {
   /* color: #106eea; */
-  color: #106eea;
+  /* color: #106eea; */
+  color: #222222;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.5rem; */
 }
@@ -47,4 +52,59 @@
   font-size: 1.5rem;
   color: #222222;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.service-container    .cardTitle  {
+  display: flex;
+  flex-direction: column;
+  color: #106eea;
+  font-size: 1.3rem;
+  align-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.service-container    .cardBody  {
+  display: flex;
+  flex-direction: column;
+  /* color: #106eea;
+  font-size: 1.3rem; */
+  align-content: center;
+  align-items: center;
+  /* padding-left: 30px; */
+}
+
+.service-container  .row .card {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 1.5rem;
+  width: 270px;
+}
+
+@media screen and (max-width: 960px) {
+
+  .service-container {
+    /* background: url('../../../images/office1.jpg') center center/cover no-repeat; */
+    /* background-color: #fff; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+     /* padding-left: 80px; */
+    padding-top: 100px; 
+    align-items: center;
+    /* box-shadow: inset 0 0 0 1000px #fff; */
+    box-shadow: inset 0 0 0 1000px #f6f9fe;
+    object-fit: contain;
+  }
+
+  .service-container .row .card {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 1.5rem;
+    margin-left: 60px;
+    width: 270px;
+  }
 }

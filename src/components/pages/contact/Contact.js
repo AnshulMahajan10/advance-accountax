@@ -17,12 +17,12 @@ export default function Contact() {
                     <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
                             {/* <div class="col"> */}
-                                <div className='navbar-icon'>
-                                    <MdPlace  />
-                                </div>
-                                <br></br>
-                                <div >
-                                    Our Address
+                            <div className='navbar-icon'>
+                                <MdPlace />
+                            </div>
+                            <br></br>
+                            <div >
+                                Our Address
                         </div>
                             {/* </div> */}
                         </Card.Title>
@@ -71,7 +71,7 @@ export default function Contact() {
                     <Card.Body className="cardBody">
                         <Card.Title className="cardTitle">
                             <div className='navbar-icon'>
-                                <MdPhone  />
+                                <MdPhone />
                             </div>
                             <br></br>
                             <div>
@@ -80,7 +80,9 @@ export default function Contact() {
 
                         </Card.Title>
                         <div >
-                            416-824-4822
+                            <a href="tel:416-824-4822">
+                                416-824-4822
+                </a>
                         </div>
                     </Card.Body>
                 </Card>

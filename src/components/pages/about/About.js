@@ -19,11 +19,11 @@ export default function About() {
                         We have been providing our services  for more than 20 years, we have wide range of clients across GTA.
           </h3>
                     <h3>
-                        Our main focus is the  maintaining the trust of our clients and providing services with efficency.
+                        Our main focus is  maintaining the trust of our clients and providing services with efficency.
           </h3>
                     <h3>
 
-                        Director: Sunil Jaggi, CPA
+                        Director: Sunil Jaggi,
                         Tax Principal
           </h3>
                 </Card.Body>

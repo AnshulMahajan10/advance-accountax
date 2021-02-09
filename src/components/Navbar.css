@@ -4,7 +4,7 @@
   color: #fff;
   min-height: 40px;
   padding-left: 50px;
-  padding-top: 5px;
+  padding-top: .5rem;
   font-size: 1rem;
   /* align-content: center; */
   /* text-align: center; */
@@ -15,9 +15,24 @@
 }
 
 
+.container {
+  z-index: 1;
+  width: 200%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  background: #f6f9fe;
+}
+
+.navbar {
+  background: #f6f9fe;
+}
 
 .navbar-container  .navbar {
-    background: #fff;
+    /* background: #fff; */
+    
     height: 90px;
     display: flex;
     justify-content: center;
@@ -31,18 +46,10 @@
    .navbar-container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
   }
   
-    .container {
-    z-index: 1;
-    width: 200%;
-    max-width: 1300px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    padding-left: 50px;
-  }
+   
   
   .navbar-logo {
     /* color: #222222; */
@@ -119,6 +126,24 @@
   }
   
   @media screen and (max-width: 960px) {
+
+
+    .heading {
+      background-color:   #002A5C;
+      color: #fff;
+      min-height: 50px;
+      padding-left: 50px;
+      padding-top: .5rem;
+      font-size: 1rem;
+      /* align-content: center; */
+      /* text-align: center; */
+    }
+    
+    .heading a{
+      color: #fff;
+    }
+
+
     .NavbarItems {
       position: relative;
     }
@@ -148,6 +173,7 @@
       padding: 2rem;
       width: 100%;
       display: table;
+      color: #fff;
     }
   
     .nav-links:hover {
@@ -166,7 +192,7 @@
   
     .navbar-logo {
       position: absolute;
-      top: 0;
+      top: .5rem;
       left: 0;
       transform: translate(5%,50%);
       font-size: 1.6rem;
